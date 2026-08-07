@@ -12,7 +12,6 @@ class Solution {
             if (ch >= '0' && ch <= '9') {
 
                 int num = ch - '0';
-
                 if (num > max) {
                     smax = max;
                     max = num;
