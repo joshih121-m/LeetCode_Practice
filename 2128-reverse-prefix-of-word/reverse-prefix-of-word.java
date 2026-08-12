@@ -23,6 +23,6 @@ class Solution {
                 left++;
                 right--;
             }
-        return new String(arr);
+        return new String  (arr);
     }
 }
