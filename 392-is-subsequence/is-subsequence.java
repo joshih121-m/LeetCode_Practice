@@ -2,7 +2,7 @@ class Solution {
     public boolean isSubsequence(String s, String t) {
         int i=0;
         int j=0;
-        while(i<s.length()&&j<t.length())
+        while(i<s.length() && j<t.length())
         {
             
             if(s.charAt(i)==t.charAt(j)){
@@ -18,7 +18,7 @@ class Solution {
             return true;
         }
         else{
-             return false;
+             return  false ;
         }
     }
 }
